@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DvMod.DemoLocos</RootNamespace>
+    <InformationalVersion>0.1.0</InformationalVersion>
+    <!-- Prevent copying dependencies to output directory -->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <PrivateAssets>all</PrivateAssets>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="all" />
+    <Publicize Include="Assembly-CSharp" IncludeCompilerGeneratedMembers="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="DV.OriginShiftInfo" />
+    <Reference Include="DV.ThingTypes" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityModManager" />
+  </ItemGroup>
+
+</Project>

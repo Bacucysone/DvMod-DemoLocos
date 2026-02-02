@@ -1,0 +1,9 @@
+{
+    "Id": "DemoLocos",
+    "DisplayName": "Hints for Demo Locos Spawns",
+    "AssemblyName": "DemoLocos.dll",
+    "Version": "0.1.0",
+    "EntryMethod": "DvMod.DemoLocos.Main.Load",
+    "Repository":"github.com/Bacucysone/DvMod-DemoLocos",
+    "Author": "Bacucysone"
+}
